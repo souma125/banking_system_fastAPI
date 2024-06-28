@@ -4,6 +4,7 @@
 pip install fastapi uvicorn sqlalchemy passlib bcrypt python-jose
 
 3rd step: If you are facing any error related to bcrypt, please update the version of bcrypt.
+pip install --upgrade bcrypt
 
 4th step: Now start the server.
 uvicorn main:app --reload
